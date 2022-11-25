@@ -7,5 +7,4 @@ public class DropItem : MonoBehaviour
 {
     public string itemName;
     public Sprite sprite;
-
 }

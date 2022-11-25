@@ -6,15 +6,28 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] Inventory inventory;
     [SerializeField] Finish finish;
+    bool isRewarded;
+    private void Start()
+    {
+        isRewarded = false;
+    }
     private void Update()
     {
-        Debug.Log(inventory.Items.Count);
-        // // jika player sampai tempat tujuan
-        // if (finish.IsFinish)
-        // {
+        if (finish.IsFinish && isRewarded == false)
+        {
+            Reward();
+        }
+    }
 
-        //     if (inventory.Items.Count > 0)
-        //         Debug.Log
-        // }
+    void Reward()
+    {
+        if (inventory.Items.Count == 3)
+            Debug.Log("3 Stars");
+        else if (inventory.Items.Count == 2)
+            Debug.Log("2 Stars");
+        else
+            Debug.Log("1 Stars");
+
+        isRewarded = true;
     }
 }
