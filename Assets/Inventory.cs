@@ -8,6 +8,7 @@ public class Inventory : MonoBehaviour
     [SerializeField] GameObject inventoryPanel;
     [SerializeField] GameObject listLocation;
     [SerializeField] ItemPrefab itemPrefab;
+    [SerializeField] DataStorage dataStorage;
     DropItem newDropItem;
     List<DropItem> items = new List<DropItem>();
     GameObject go;
@@ -34,6 +35,9 @@ public class Inventory : MonoBehaviour
     {
         // add ke list
         Items.Add(newDropItem);
+
+        // simpan sementara
+        dataStorage.itemCollect++;
 
         // set dalam panel
         itemPrefab.Set(newDropItem.itemName, newDropItem.sprite);

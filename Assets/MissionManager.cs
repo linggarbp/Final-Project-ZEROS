@@ -2,20 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
+public class MissionManager : MonoBehaviour
 {
     [SerializeField] Inventory inventory;
     [SerializeField] Finish finish;
+    [SerializeField] string nextScene;
+    SceneLoader sceneLoader;
     bool isRewarded;
     private void Start()
     {
         isRewarded = false;
+        sceneLoader = GetComponent<SceneLoader>();
     }
     private void Update()
     {
         if (finish.IsFinish && isRewarded == false)
         {
             Reward();
+            sceneLoader.Load(nextScene);
         }
     }
 
