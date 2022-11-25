@@ -10,15 +10,17 @@ public class Inventory : MonoBehaviour
     [SerializeField] ItemPrefab itemPrefab;
     DropItem newDropItem;
     List<DropItem> items = new List<DropItem>();
+    GameObject go;
     bool onDropItem;
-
+    public bool isItemTake;
 
     private void Update()
     {
         // ambil drop item
-        if (Input.GetKeyDown("e") && onDropItem)
+        if (Input.GetKey("e") && onDropItem)
         {
             AddToInventory();
+            Destroy(go);
         }
 
         // buka inventory
@@ -41,11 +43,12 @@ public class Inventory : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "DropItem")
+        if (other.GetComponent<DropItem>() != null)
         {
             onDropItem = true;
             newDropItem = other.GetComponent<DropItem>();
         }
+        go = other.gameObject;
     }
     private void OnTriggerExit2D(Collider2D other)
     {
