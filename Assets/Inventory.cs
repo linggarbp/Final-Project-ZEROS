@@ -12,7 +12,6 @@ public class Inventory : MonoBehaviour
     List<DropItem> items = new List<DropItem>();
     GameObject go;
     bool onDropItem;
-    public bool isItemTake;
 
     private void Update()
     {
