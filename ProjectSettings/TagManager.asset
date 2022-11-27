@@ -8,6 +8,7 @@ TagManager:
   - Food
   - Foods
   - DropItem
+  - WeakPoint
   layers:
   - Default
   - TransparentFX
@@ -15,7 +16,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Ground
   - 
   - 
   - 

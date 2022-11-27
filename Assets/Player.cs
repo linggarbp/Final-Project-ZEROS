@@ -33,9 +33,9 @@ public class Player : MonoBehaviour
 
     }
 
-    void TakeDamage()
+    public void TakeDamage(int value)
     {
-
+        health -= value;
     }
 
 
