@@ -2,15 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public class MonsterStomp : MonoBehaviour
 {
-    int damage;
+
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "WeakPoint")
         {
-            // do something
-            Debug.Log("enemy hit");
+            Debug.Log("hit");
+            Destroy(other.gameObject);
         }
     }
 }

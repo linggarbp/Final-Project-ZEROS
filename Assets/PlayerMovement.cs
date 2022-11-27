@@ -4,32 +4,52 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [SerializeField] Rigidbody2D rb;
     [SerializeField] float speed;
-    [SerializeField] float jumpHeight;
-    Rigidbody2D rb;
-    Vector2 moveDir;
+    [SerializeField] float jumpForce;
+    [SerializeField] SpriteRenderer rend;
     int jumpCount;
-    private void Awake()
-    {
-        rb = GetComponent<Rigidbody2D>();
-    }
+    float moveDir;
 
+    [SerializeField] LayerMask groundLayer;
+    bool isGrounded;
+    [SerializeField] Transform feetPosition;
+    [SerializeField] float groundCheckCircle;
+
+    [SerializeField] float KBForce;
+    public float KBCounter;
+    public float totalTime;
+    public bool KnockFromRight;
     private void Update()
     {
-        var moveX = Input.GetAxis("Horizontal") * speed * Time.deltaTime;
-        var jump = Input.GetAxis("Jump") * jumpHeight * Time.deltaTime;
+        moveDir = Input.GetAxisRaw("Horizontal");
 
-        // move
-        transform.Translate(new Vector2(moveX, 0));
-
+        isGrounded = Physics2D.OverlapCircle(feetPosition.position, groundCheckCircle, groundLayer);
         // jump
-        if (Input.GetKeyDown("w"))
+        if (isGrounded && Input.GetKey("w"))
         {
-            if (jumpCount >= 2)
-                return;
+            rb.velocity = Vector2.up * jumpForce;
+        }
 
-            jumpCount++;
-            rb.AddForce(new Vector2(0, jumpHeight), ForceMode2D.Impulse);
+        // flip
+        if (moveDir > 0)
+            rend.flipX = false;
+        else if (moveDir < 0)
+            rend.flipX = true;
+
+    }
+    private void FixedUpdate()
+    {
+        if (KBCounter <= 0)
+            rb.velocity = new Vector2(moveDir * speed, rb.velocity.y);
+        else
+        {
+            if (KnockFromRight)
+                rb.velocity = new Vector2(-KBForce, KBForce);
+            if (!KnockFromRight)
+                rb.velocity = new Vector2(KBForce, KBForce);
+
+            KBCounter -= Time.deltaTime;
         }
     }
     private void OnCollisionEnter2D(Collision2D other)
