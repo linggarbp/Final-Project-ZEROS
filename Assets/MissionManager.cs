@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class MissionManager : MonoBehaviour
 {
+    [SerializeField] GameObject inventoryPanel;
     [SerializeField] Inventory inventory;
     [SerializeField] Finish finish;
-    [SerializeField] string nextScene;
     SceneLoader sceneLoader;
     bool isRewarded;
     private void Start()
@@ -16,10 +16,16 @@ public class MissionManager : MonoBehaviour
     }
     private void Update()
     {
+        // buka inventory
+        if (Input.GetKeyDown(KeyCode.Tab))
+            inventoryPanel.SetActive(true);
+        if (Input.GetKeyUp(KeyCode.Tab))
+            inventoryPanel.SetActive(false);
+
         if (finish.IsFinish && isRewarded == false)
         {
             Reward();
-            sceneLoader.Load(nextScene);
+            sceneLoader.Load("Open World");
         }
     }
 

@@ -5,16 +5,20 @@ using UnityEngine.SceneManagement;
 
 public class Mission : MonoBehaviour
 {
+    [SerializeField] string missionName;
     [SerializeField] int itemRequired;
     [SerializeField] DataStorage dataStorage;
 
     public void TakeMission()
     {
-        if (dataStorage.itemCollect > itemRequired)
+
+        Debug.Log(missionName);
+        if (dataStorage.itemCollect >= itemRequired)
         {
             Debug.Log("Misi diambil");
+            SceneManager.LoadScene(missionName);
         }
-        else
-            Debug.Log("Selesaikan Misi Sebelumnya");
+        Debug.Log("Selesaikan Misi Sebelumnya");
+        Debug.Log(dataStorage.itemCollect);
     }
 }
