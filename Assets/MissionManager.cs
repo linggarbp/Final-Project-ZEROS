@@ -2,20 +2,30 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
+public class MissionManager : MonoBehaviour
 {
+    [SerializeField] GameObject inventoryPanel;
     [SerializeField] Inventory inventory;
     [SerializeField] Finish finish;
+    SceneLoader sceneLoader;
     bool isRewarded;
     private void Start()
     {
         isRewarded = false;
+        sceneLoader = GetComponent<SceneLoader>();
     }
     private void Update()
     {
+        // buka inventory
+        if (Input.GetKeyDown(KeyCode.Tab))
+            inventoryPanel.SetActive(true);
+        if (Input.GetKeyUp(KeyCode.Tab))
+            inventoryPanel.SetActive(false);
+
         if (finish.IsFinish && isRewarded == false)
         {
             Reward();
+            sceneLoader.Load("Open World");
         }
     }
 

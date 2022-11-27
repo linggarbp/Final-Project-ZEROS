@@ -5,9 +5,9 @@ using UnityEngine;
 public class Inventory : MonoBehaviour
 {
     public List<DropItem> Items { get => items; }
-    [SerializeField] GameObject inventoryPanel;
-    [SerializeField] GameObject listLocation;
+    [SerializeField] GameObject itemListLocation;
     [SerializeField] ItemPrefab itemPrefab;
+    [SerializeField] DataStorage dataStorage;
     DropItem newDropItem;
     List<DropItem> items = new List<DropItem>();
     GameObject go;
@@ -21,12 +21,6 @@ public class Inventory : MonoBehaviour
             AddToInventory();
             Destroy(go);
         }
-
-        // buka inventory
-        if (Input.GetKeyDown(KeyCode.Tab))
-            inventoryPanel.SetActive(true);
-        if (Input.GetKeyUp(KeyCode.Tab))
-            inventoryPanel.SetActive(false);
     }
 
     // update list pada panel inventory
@@ -35,9 +29,12 @@ public class Inventory : MonoBehaviour
         // add ke list
         Items.Add(newDropItem);
 
+        // simpan sementara
+        dataStorage.itemCollect++;
+
         // set dalam panel
         itemPrefab.Set(newDropItem.itemName, newDropItem.sprite);
-        Instantiate(itemPrefab, listLocation.transform);
+        Instantiate(itemPrefab, itemListLocation.transform);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
