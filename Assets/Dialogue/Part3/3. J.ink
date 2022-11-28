@@ -1,1 +1,1 @@
-Orang tadi pergi kemana ya? Biarinlah yang penting selamat
+Orang tadi pergi kemana ya? Biarinlah yang penting selamat. #speaker:Jeki #portrait:jeki #layout:left

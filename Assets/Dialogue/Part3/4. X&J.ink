@@ -1,2 +1,2 @@
-Huahahahahh tamat riwayatmu
-Cihh, dalam mimpimu
+Huahahahahh tamat riwayatmu!!! #speaker:??? #portrait:??? #layout:right
+Cihh, dalam mimpimu! #speaker:Jeki #portrait:jeki #layout:left

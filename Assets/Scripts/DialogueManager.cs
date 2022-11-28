@@ -13,7 +13,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private Animator portraitAnimator;
     private Animator layoutAnimator;
 
-    private Story currenStory;
+    private Story currentStory;
     public bool dialogueIsPlaying { get; private set; }
 
     private static DialogueManager instance;
@@ -50,12 +50,13 @@ public class DialogueManager : MonoBehaviour
             return;
 
         //if (InputManager.GetInstance().GetSubmitPressed())
+        if (Input.GetKeyDown(KeyCode.Space))
             ContinueStory();
     }
 
     public void EnterDialogueMode(TextAsset inkJSON)
     {
-        currenStory = new Story(inkJSON.text);
+        currentStory = new Story(inkJSON.text);
         dialogueIsPlaying = true;
         dialoguePanel.SetActive(true);
 
@@ -73,11 +74,11 @@ public class DialogueManager : MonoBehaviour
 
     private void ContinueStory()
     {
-        if (currenStory.canContinue)
+        if (currentStory.canContinue)
         {
-            dialogueText.text = currenStory.Continue();
+            dialogueText.text = currentStory.Continue();
 
-            HandleTags(currenStory.currentTags);
+            HandleTags(currentStory.currentTags);
         }
         else
         {
