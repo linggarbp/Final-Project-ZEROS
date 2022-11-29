@@ -6,15 +6,26 @@ using Ink.Runtime;
 
 public class DialogueManager : MonoBehaviour
 {
+    [Header("Params")]
+    [SerializeField] private float typingSpeed = 0.04f;
+
     [Header("Dialogue UI")]
     [SerializeField] private GameObject dialoguePanel;
+    [SerializeField] private GameObject continueIcon;
     [SerializeField] private TextMeshProUGUI dialogueText;
     [SerializeField] private TextMeshProUGUI displayNameText;
     [SerializeField] private Animator portraitAnimator;
     private Animator layoutAnimator;
 
     private Story currentStory;
+
+    private bool canContinueToNextLine = false;
     public bool dialogueIsPlaying { get; private set; }
+
+    private Coroutine displayLineCoroutine;
+
+    private bool canSkip = false;
+    private bool submitSkip;
 
     private static DialogueManager instance;
 
@@ -46,11 +57,14 @@ public class DialogueManager : MonoBehaviour
 
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Space))
+            submitSkip = true;
+
         if (!dialogueIsPlaying)
             return;
 
         //if (InputManager.GetInstance().GetSubmitPressed())
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (canContinueToNextLine && Input.GetKeyDown(KeyCode.Space))
             ContinueStory();
     }
 
@@ -61,6 +75,13 @@ public class DialogueManager : MonoBehaviour
         dialoguePanel.SetActive(true);
 
         ContinueStory();
+    }
+
+    private IEnumerator CanSkip()
+    {
+        canSkip = false;
+        yield return new WaitForSeconds(0.05f);
+        canSkip = true;
     }
 
     private IEnumerator ExitDialogueMode()
@@ -76,7 +97,11 @@ public class DialogueManager : MonoBehaviour
     {
         if (currentStory.canContinue)
         {
-            dialogueText.text = currentStory.Continue();
+            if (displayLineCoroutine != null)
+            {
+                StopCoroutine(displayLineCoroutine);
+            }
+            displayLineCoroutine = StartCoroutine(DisplayLine(currentStory.Continue()));
 
             HandleTags(currentStory.currentTags);
         }
@@ -84,6 +109,36 @@ public class DialogueManager : MonoBehaviour
         {
             StartCoroutine(ExitDialogueMode());
         }
+    }
+
+    private IEnumerator DisplayLine(string line)
+    {
+        dialogueText.text = "";
+
+        continueIcon.SetActive(false);
+        canContinueToNextLine = false;
+
+        submitSkip = false;
+        canContinueToNextLine = false;
+
+        StartCoroutine(CanSkip());
+
+        foreach(char letter in line.ToCharArray())
+        {
+            if (canSkip && submitSkip)
+            {
+                submitSkip = false;
+                dialogueText.text = line;
+                break;
+            }
+
+            dialogueText.text += letter;
+            yield return new WaitForSeconds(typingSpeed);
+        }
+
+        continueIcon.SetActive(true);
+        canContinueToNextLine = true;
+        canSkip = false;
     }
 
     private void HandleTags(List<string> currentTags)
