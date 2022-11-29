@@ -357,7 +357,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1057718250754623950
 Transform:
   m_ObjectHideFlags: 0
@@ -413,4 +413,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a827ab312dabbd4fa70d069a3731a29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerMovement: {fileID: 0}
   damage: 3
