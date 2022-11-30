@@ -172,7 +172,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_UiScaleMode: 1
-  m_ReferencePixelsPerUnit: 100
+  m_ReferencePixelsPerUnit: 20
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 1
@@ -583,7 +583,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 562538224}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.6487217, y: 1.6487217, z: 1.6487217}
   m_ConstrainProportionsScale: 0
@@ -593,10 +593,10 @@ RectTransform:
   m_Father: {fileID: 149651876}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 31.2349, y: -341}
-  m_SizeDelta: {x: 617.6089, y: 20}
+  m_AnchorMin: {x: 0.2507292, y: 0.16833337}
+  m_AnchorMax: {x: 0.7823542, y: 0.19700001}
+  m_AnchoredPosition: {x: -0.26513672, y: 2}
+  m_SizeDelta: {x: -403.3911, y: -12}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &562538226
 MonoBehaviour:
