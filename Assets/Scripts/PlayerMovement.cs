@@ -20,6 +20,8 @@ public class PlayerMovement : MonoBehaviour
     public float KBCounter;
     public float totalTime;
     public bool KnockFromRight;
+
+    [SerializeField] Animator animator;
     private void Update()
     {
         moveDir = Input.GetAxisRaw("Horizontal");
@@ -30,12 +32,19 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.velocity = Vector2.up * jumpForce;
         }
+        animator.SetBool("isJumping", !isGrounded);
 
         // flip
         if (moveDir > 0)
             rend.flipX = false;
         else if (moveDir < 0)
             rend.flipX = true;
+
+        if (moveDir != 0)
+            animator.SetBool("isMove", true);
+        else
+            animator.SetBool("isMove", false);
+
 
     }
     private void FixedUpdate()
