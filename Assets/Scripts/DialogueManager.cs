@@ -148,10 +148,10 @@ public class DialogueManager : MonoBehaviour
             string[] splitTag = tag.Split(':');
             if (splitTag.Length != 2)
                 Debug.LogError("Tag could not be appropriately parsed:" + tag);
-            string tagkey = splitTag[0].Trim();
+            string tagKey = splitTag[0].Trim();
             string tagValue = splitTag[1].Trim();
 
-            switch (tagkey)
+            switch (tagKey)
             {
                 case SPEAKER_TAG:
                     displayNameText.text = tagValue;
