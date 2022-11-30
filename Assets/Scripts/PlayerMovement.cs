@@ -26,8 +26,10 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] Animator animator;
     private void Update()
     {
-        if (DialogueManager.GetInstance().dialogueIsPlaying == true)
-            return;
+
+
+        // if (DialogueManager.GetInstance().dialogueIsPlaying == true)
+        //     return;
 
         moveDir = Input.GetAxisRaw("Horizontal");
 
