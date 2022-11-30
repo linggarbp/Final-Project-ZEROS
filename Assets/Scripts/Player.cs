@@ -61,6 +61,7 @@ public class Player : MonoBehaviour
         if (other.tag == "FallDetector")
         {
             transform.position = respawnPoint;
+            health -= 1;
         }
         else if (other.tag == "Checkpoint")
         {
