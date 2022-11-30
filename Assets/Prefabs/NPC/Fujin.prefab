@@ -275,4 +275,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   visualCue: {fileID: 2918926881212602872}
   trigger: {fileID: 2918926883197437897}
-  inkJSON: {fileID: 4900000, guid: dda9476fade40474bbf4c7cb7487fdf6, type: 3}
+  inkJSON: {fileID: 0}
