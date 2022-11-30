@@ -7,7 +7,8 @@ using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
     public int maxHealth = 10;
-    public int health;
+    public static int health;
+    public int lastHealth;
     bool onMission;
     Mission newMission;
 
@@ -30,6 +31,11 @@ public class Player : MonoBehaviour
         {
             Die();
         }
+        if (lastHealth != health)
+            Debug.Log(health);
+
+        lastHealth = health;
+
     }
 
     void Attack()

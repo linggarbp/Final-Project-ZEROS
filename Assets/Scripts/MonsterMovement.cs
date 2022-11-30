@@ -11,6 +11,8 @@ public class MonsterMovement : MonoBehaviour
     [SerializeField] float cheseDistance;
     [SerializeField] bool isChasing;
 
+    public static bool isDirChange;
+
     private void Update()
     {
         if (isChasing)
@@ -45,8 +47,10 @@ public class MonsterMovement : MonoBehaviour
                 transform.position = Vector2.MoveTowards(transform.position, patrolPoints[0].position, moveSpeed * Time.deltaTime);
                 if (Vector2.Distance(transform.position, patrolPoints[0].position) < .2f)
                 {
+                    isDirChange = true;
                     transform.localScale = new Vector3(-1, 1, 1);
                     patrolDestination = 1;
+                    MonsterBullet.isDirToRight = false;
                 }
             }
 
@@ -55,11 +59,15 @@ public class MonsterMovement : MonoBehaviour
                 transform.position = Vector2.MoveTowards(transform.position, patrolPoints[1].position, moveSpeed * Time.deltaTime);
                 if (Vector2.Distance(transform.position, patrolPoints[1].position) < .2f)
                 {
+                    isDirChange = true;
                     transform.localScale = new Vector3(1, 1, 1);
                     patrolDestination = 0;
+                    MonsterBullet.isDirToRight = true;
                 }
             }
         }
+
     }
+
 }
 
