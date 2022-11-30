@@ -26,6 +26,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] Animator animator;
     private void Update()
     {
+        if (DialogueManager.GetInstance().dialogueIsPlaying == true)
+            return;
+
         moveDir = Input.GetAxisRaw("Horizontal");
 
         isGrounded = Physics2D.OverlapCircle(feetPosition.position, groundCheckCircle, groundLayer);
