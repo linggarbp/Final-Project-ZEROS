@@ -9,6 +9,8 @@ TagManager:
   - Foods
   - DropItem
   - WeakPoint
+  - Checkpoint
+  - FallDetector
   layers:
   - Default
   - TransparentFX

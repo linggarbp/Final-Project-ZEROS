@@ -21,6 +21,8 @@ public class PlayerMovement : MonoBehaviour
     public float totalTime;
     public bool KnockFromRight;
 
+
+
     [SerializeField] Animator animator;
     private void Update()
     {
@@ -63,8 +65,8 @@ public class PlayerMovement : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.tag != null)
-            jumpCount = 0;
+        // if (other.gameObject.tag != null)
+        //     jumpCount = 0;
     }
 
 }

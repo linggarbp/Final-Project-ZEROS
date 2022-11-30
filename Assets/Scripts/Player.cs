@@ -11,8 +11,12 @@ public class Player : MonoBehaviour
     bool onMission;
     Mission newMission;
 
+    Vector3 respawnPoint;
+
     private void Start()
     {
+        respawnPoint = transform.position;
+
         health = maxHealth;
     }
     private void Update()
@@ -52,6 +56,16 @@ public class Player : MonoBehaviour
         {
             onMission = true;
             newMission = other.GetComponent<Mission>();
+        }
+
+        if (other.tag == "FallDetector")
+        {
+            transform.position = respawnPoint;
+            health -= 1;
+        }
+        else if (other.tag == "Checkpoint")
+        {
+            respawnPoint = other.transform.position;
         }
     }
     private void OnTriggerExit2D(Collider2D other)
