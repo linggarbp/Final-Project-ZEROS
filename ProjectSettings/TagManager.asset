@@ -11,6 +11,7 @@ TagManager:
   - WeakPoint
   - Checkpoint
   - FallDetector
+  - Boss
   layers:
   - Default
   - TransparentFX

@@ -87,7 +87,7 @@ GameObject:
   - component: {fileID: 6564223768708234838}
   - component: {fileID: 6564223768708234920}
   m_Layer: 0
-  m_Name: Monster
+  m_Name: Monster1
   m_TagString: WeakPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -172,7 +172,7 @@ MonoBehaviour:
   patrolPoints:
   - {fileID: 0}
   - {fileID: 0}
-  moveSpeed: 3
+  moveSpeed: 5
   patrolDestination: 0
   playerTransform: {fileID: 0}
   cheseDistance: 4
@@ -187,7 +187,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6564223769358691794}
   - component: {fileID: 6564223769358691793}
-  - component: {fileID: 2547548651867232339}
+  - component: {fileID: 5064672682674355569}
   m_Layer: 0
   m_Name: Render
   m_TagString: Untagged
@@ -262,7 +262,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &2547548651867232339
+--- !u!95 &5064672682674355569
 Animator:
   serializedVersion: 4
   m_ObjectHideFlags: 0
@@ -272,7 +272,7 @@ Animator:
   m_GameObject: {fileID: 6564223769358691795}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 92ce1c39fca284447a8bdf50d2dc2f13, type: 2}
+  m_Controller: {fileID: 9100000, guid: d586a32cd3b181347af5bcb690ac2ce6, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
