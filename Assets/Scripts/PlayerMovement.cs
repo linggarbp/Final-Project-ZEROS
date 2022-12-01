@@ -61,9 +61,9 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             if (KnockFromRight)
-                rb.velocity = new Vector2(-KBForce, KBForce);
+                rb.velocity = new Vector2(-KBForce * 3, KBForce);
             if (!KnockFromRight)
-                rb.velocity = new Vector2(KBForce, KBForce);
+                rb.velocity = new Vector2(KBForce * 3, KBForce);
 
             KBCounter -= Time.deltaTime;
         }
