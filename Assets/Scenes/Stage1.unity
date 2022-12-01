@@ -1174,7 +1174,7 @@ PrefabInstance:
     - target: {fileID: 6217558716614143210, guid: 3c636143c7d60c84c96147c903a273bf, type: 3}
       propertyPath: playerMovement
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1904295335}
     - target: {fileID: 6564223768708234832, guid: 3c636143c7d60c84c96147c903a273bf, type: 3}
       propertyPath: m_Name
       value: Monster
@@ -1577,6 +1577,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: be9b64d9adf3857428c79c41a214622d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1904295335 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1907203364739136760, guid: cb23214a4c555c94cbde35cbaab40f6c, type: 3}
+  m_PrefabInstance: {fileID: 762273663}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 191accb5944c30a4e89015eca6f6195f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &2005464856 stripped
