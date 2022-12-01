@@ -178,6 +178,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5931327163589744005, guid: 5fe1e40f9232e784dbec486da31ad3ad, type: 3}
+      propertyPath: patrolPoints.Array.data[0]
+      value: 
+      objectReference: {fileID: 610420216}
+    - target: {fileID: 5931327163589744005, guid: 5fe1e40f9232e784dbec486da31ad3ad, type: 3}
+      propertyPath: patrolPoints.Array.data[1]
+      value: 
+      objectReference: {fileID: 853442550}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5fe1e40f9232e784dbec486da31ad3ad, type: 3}
 --- !u!1001 &146663837
@@ -1046,6 +1054,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c2d5df613a4c8cd4a85df88c3e7bc476, type: 3}
+--- !u!4 &610420216 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2166198250600650358, guid: c2d5df613a4c8cd4a85df88c3e7bc476, type: 3}
+  m_PrefabInstance: {fileID: 610420215}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &705140659
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1160,6 +1173,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c2d5df613a4c8cd4a85df88c3e7bc476, type: 3}
+--- !u!4 &853442550 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2166198250600650358, guid: c2d5df613a4c8cd4a85df88c3e7bc476, type: 3}
+  m_PrefabInstance: {fileID: 853442549}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1066780817
 GameObject:
   m_ObjectHideFlags: 0
