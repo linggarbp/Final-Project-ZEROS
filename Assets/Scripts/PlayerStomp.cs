@@ -6,9 +6,11 @@ public class PlayerStomp : MonoBehaviour
 {
     [SerializeField] int stompDamage = 1;
     MonsterStats monsterStats;
+    Monster3 monster3;
 
     [SerializeField] Player player;
-    [SerializeField] float monster2StompKBForce;
+    [SerializeField] float m2StompKBForce = 7;
+    [SerializeField] float m3StompKBForce = 7;
 
     private void Update()
     {
@@ -25,10 +27,17 @@ public class PlayerStomp : MonoBehaviour
         }
         if (other.gameObject.tag == "Monster2")
         {
-            Debug.Log("hiii");
+            Debug.Log("Stomp m2");
             monsterStats = other.gameObject.GetComponent<MonsterStats>();
             monsterStats.TakeDamage(stompDamage);
-            KBForce(monster2StompKBForce, other.transform);
+            KBForce(m2StompKBForce, other.transform);
+        }
+        if (other.gameObject.tag == "Monster3")
+        {
+            Debug.Log("Stomp m2");
+            monster3 = other.gameObject.GetComponent<Monster3>();
+            monster3.TakeDamage(stompDamage);
+            KBForce(m3StompKBForce, other.transform);
         }
     }
     void KBForce(float newForce, Transform other)

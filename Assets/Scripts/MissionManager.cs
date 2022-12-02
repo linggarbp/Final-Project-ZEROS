@@ -16,11 +16,7 @@ public class MissionManager : MonoBehaviour
     }
     private void Update()
     {
-        // buka inventory
-        if (Input.GetKeyDown(KeyCode.Tab))
-            inventoryPanel.SetActive(true);
-        if (Input.GetKeyUp(KeyCode.Tab))
-            inventoryPanel.SetActive(false);
+
 
         if (finish.IsFinish && isRewarded == false)
         {

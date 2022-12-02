@@ -35,11 +35,13 @@ public class MonsterMovement : MonoBehaviour
 
             if (transform.position.x > player.position.x)
             {
+                MonsterBullet.isDirToRight = false;
                 transform.localScale = new Vector3(-1, 1, 1);
                 transform.position += Vector3.left * moveSpeed * Time.deltaTime;
             }
             if (transform.position.x < player.position.x)
             {
+                MonsterBullet.isDirToRight = true;
                 transform.localScale = new Vector3(1, 1, 1);
                 transform.position += Vector3.right * moveSpeed * Time.deltaTime;
             }

@@ -17,6 +17,8 @@ TagManager:
   - Monster2
   - PlayerFeet
   - MonsterWeakPoint
+  - WeakPoint
+  - Monster3
   layers:
   - Default
   - TransparentFX

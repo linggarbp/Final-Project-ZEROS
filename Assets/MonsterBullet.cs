@@ -17,6 +17,8 @@ public class MonsterBullet : MonoBehaviour
         if (MonsterMovement.isDirChange)
             StartCoroutine(WaitFire());
 
+        StartCoroutine(LifeTime());
+
         rb = GetComponent<Rigidbody2D>();
         if (isDirToRight)
             rb.velocity = transform.right * speed;
@@ -26,6 +28,9 @@ public class MonsterBullet : MonoBehaviour
 
     private void Update()
     {
+        if (speed <= 0 || bulletDamage <= 0 || spinSpeed <= 0)
+            Debug.Log("Attach value higher than 0 in prefab :" + this.name);
+
         if (speed <= 0 || bulletDamage <= 0)
         {
             Debug.Log(this.name + " value can't <= 0");
@@ -36,6 +41,7 @@ public class MonsterBullet : MonoBehaviour
             transform.Rotate(0, 0, -1 * spinSpeed);
         else if (!isDirToRight)
             transform.Rotate(0, 0, 1 * spinSpeed);
+
     }
 
     private void OnCollisionEnter2D(Collision2D other)
@@ -46,7 +52,7 @@ public class MonsterBullet : MonoBehaviour
             player.TakeDamage(bulletDamage);
         }
 
-        if (other.gameObject.tag != "Monster2")
+        if (other.gameObject.tag != "Monster2" && other.gameObject.tag != "Monster3")
             gameObject.SetActive(false);
     }
     IEnumerator WaitFire()
@@ -54,8 +60,14 @@ public class MonsterBullet : MonoBehaviour
         yield return new WaitForSeconds(0.2f);
         MonsterMovement.isDirChange = false;
     }
-    private void OnDestroy()
+    private void OnDisable()
     {
         StopAllCoroutines();
     }
+    IEnumerator LifeTime()
+    {
+        yield return new WaitForSeconds(5f);
+        gameObject.SetActive(false);
+    }
+
 }
