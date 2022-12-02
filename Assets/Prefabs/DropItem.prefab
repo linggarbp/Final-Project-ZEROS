@@ -151,8 +151,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a10a1dc88275e1b47861b2d15d3342f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: 
-  sprite: {fileID: 0}
+  itemName: Nasi Kuning
+  sprite: {fileID: -682120388, guid: fdd009a3521d42145a6677a70ad8be85, type: 3}
 --- !u!61 &2184116360183144488
 BoxCollider2D:
   m_ObjectHideFlags: 0

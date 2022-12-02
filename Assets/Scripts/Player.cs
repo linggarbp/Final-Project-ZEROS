@@ -12,7 +12,7 @@ public class Player : MonoBehaviour
     public int lastHealth;
     public static bool isAlive;
     bool onMission;
-    Mission newMission;
+    Restaurant newMission;
 
     Vector3 respawnPoint;
 
@@ -126,10 +126,10 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.GetComponent<Mission>() != null)
+        if (other.GetComponent<Restaurant>() != null)
         {
             onMission = true;
-            newMission = other.GetComponent<Mission>();
+            newMission = other.GetComponent<Restaurant>();
         }
 
         if (other.tag == "FallDetector")

@@ -9,7 +9,6 @@ public class MonsterBullet : MonoBehaviour
     [SerializeField] int bulletDamage = 1;
 
     Player player;
-    float lifeTime = 5;
     public static bool isDirToRight;
     Rigidbody2D rb;
     private void Start()

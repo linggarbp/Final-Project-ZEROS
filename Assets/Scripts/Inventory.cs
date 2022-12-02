@@ -39,7 +39,7 @@ public class Inventory : MonoBehaviour
         Items.Add(newDropItem);
 
         // simpan sementara
-        dataStorage.itemCollect++;
+
 
         // set dalam panel
         itemPrefab.Set(newDropItem.itemName, newDropItem.sprite);
