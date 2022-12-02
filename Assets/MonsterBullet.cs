@@ -4,16 +4,19 @@ using UnityEngine;
 
 public class MonsterBullet : MonoBehaviour
 {
-    [SerializeField] float speed;
-    [SerializeField] float spinSpeed;
+    [SerializeField] float speed = 10;
+    [SerializeField] float spinSpeed = 5;
     [SerializeField] int bulletDamage = 1;
-    float lifeTime = 5;
+
+    Player player;
     public static bool isDirToRight;
     Rigidbody2D rb;
     private void Start()
     {
         if (MonsterMovement.isDirChange)
             StartCoroutine(WaitFire());
+
+        StartCoroutine(LifeTime());
 
         rb = GetComponent<Rigidbody2D>();
         if (isDirToRight)
@@ -24,31 +27,46 @@ public class MonsterBullet : MonoBehaviour
 
     private void Update()
     {
+        if (speed <= 0 || bulletDamage <= 0 || spinSpeed <= 0)
+            Debug.Log("Attach value higher than 0 in prefab :" + this.name);
+
+        if (speed <= 0 || bulletDamage <= 0)
+        {
+            Debug.Log(this.name + " value can't <= 0");
+            return;
+        }
+
         if (isDirToRight)
-        {
             transform.Rotate(0, 0, -1 * spinSpeed);
-        }
         else if (!isDirToRight)
-        {
             transform.Rotate(0, 0, 1 * spinSpeed);
-        }
+
     }
 
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.GetComponent<Player>() != null)
-            Player.health -= 1;
+        {
+            player = other.gameObject.GetComponent<Player>();
+            player.TakeDamage(bulletDamage);
+        }
 
-        if (other.gameObject.tag != "WeakPoint")
-            Destroy(gameObject);
+        if (other.gameObject.tag != "Monster2" && other.gameObject.tag != "Monster3")
+            gameObject.SetActive(false);
     }
     IEnumerator WaitFire()
     {
         yield return new WaitForSeconds(0.2f);
         MonsterMovement.isDirChange = false;
     }
-    private void OnDestroy()
+    private void OnDisable()
     {
         StopAllCoroutines();
     }
+    IEnumerator LifeTime()
+    {
+        yield return new WaitForSeconds(5f);
+        gameObject.SetActive(false);
+    }
+
 }

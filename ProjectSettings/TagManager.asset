@@ -8,10 +8,17 @@ TagManager:
   - Food
   - Foods
   - DropItem
-  - WeakPoint
   - Checkpoint
   - FallDetector
   - Boss
+  - InventoryUI
+  - Panel_Inventory
+  - Monster1
+  - Monster2
+  - PlayerFeet
+  - MonsterWeakPoint
+  - WeakPoint
+  - Monster3
   layers:
   - Default
   - TransparentFX

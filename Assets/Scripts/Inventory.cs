@@ -5,9 +5,12 @@ using UnityEngine;
 public class Inventory : MonoBehaviour
 {
     public List<DropItem> Items { get => items; }
-    [SerializeField] GameObject itemListLocation;
     [SerializeField] ItemPrefab itemPrefab;
     [SerializeField] DataStorage dataStorage;
+    [SerializeField] GameObject inventoryPanel;
+
+    [Header("InventoryPanel>ScrollView>Viewport>ItemList")]
+    [SerializeField] GameObject itemListLocation;
     DropItem newDropItem;
     List<DropItem> items = new List<DropItem>();
     GameObject go;
@@ -15,12 +18,18 @@ public class Inventory : MonoBehaviour
 
     private void Update()
     {
-        // ambil drop item
+        // TAKE DROP ITEM
         if (Input.GetKey("e") && onDropItem)
         {
             AddToInventory();
             Destroy(go);
         }
+
+        // OPEN INVENTORY
+        if (Input.GetKeyDown(KeyCode.Tab))
+            inventoryPanel.SetActive(true);
+        if (Input.GetKeyUp(KeyCode.Tab))
+            inventoryPanel.SetActive(false);
     }
 
     // update list pada panel inventory
@@ -30,7 +39,7 @@ public class Inventory : MonoBehaviour
         Items.Add(newDropItem);
 
         // simpan sementara
-        dataStorage.itemCollect++;
+
 
         // set dalam panel
         itemPrefab.Set(newDropItem.itemName, newDropItem.sprite);
