@@ -8,7 +8,7 @@ public class MonsterFire : MonoBehaviour
     [SerializeField] GameObject bullet;
     float timebetween;
 
-    [SerializeField] float startTimeBetween;
+    [SerializeField] float startTimeBetween = 1;
 
     private void Start()
     {
@@ -17,17 +17,24 @@ public class MonsterFire : MonoBehaviour
 
     private void Update()
     {
+        if (firePoint == null || bullet == null || startTimeBetween <= 0)
+        {
+            Debug.Log("Attach all required reference to component : " + this.name);
+            return;
+        }
+
         StartCoroutine(Fire());
     }
 
-    private void OnDestroy()
+    private void OnDisable()
     {
         StopAllCoroutines();
     }
+
     IEnumerator Fire()
     {
         if (MonsterMovement.isDirChange)
-        { yield return new WaitForSeconds(0.4f); }
+            yield return new WaitForSeconds(0.4f);
 
         if (timebetween <= 0)
         {
@@ -35,8 +42,7 @@ public class MonsterFire : MonoBehaviour
             timebetween = startTimeBetween;
         }
         else
-        {
             timebetween -= Time.deltaTime;
-        }
+
     }
 }

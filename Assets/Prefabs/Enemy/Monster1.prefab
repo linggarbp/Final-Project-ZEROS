@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6217558716614143213}
   - component: {fileID: 6217558716614143210}
   m_Layer: 0
-  m_Name: MonsterDamage
+  m_Name: MonsterAttackArea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31,7 +31,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6564223768708234839}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &6217558716614143213
 BoxCollider2D:
@@ -71,9 +71,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd7c0d7bd3fcda44eb2dcf7457eeed2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 2
   player: {fileID: 0}
-  playerMovement: {fileID: 0}
+  damage: 2
+  playerKBForce: 7
 --- !u!1 &6564223768708234832
 GameObject:
   m_ObjectHideFlags: 0
@@ -88,7 +88,7 @@ GameObject:
   - component: {fileID: 6564223768708234920}
   m_Layer: 0
   m_Name: Monster1
-  m_TagString: WeakPoint
+  m_TagString: Monster1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -105,8 +105,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 6564223769358691794}
   - {fileID: 6217558716614143211}
+  - {fileID: 6564223769358691794}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -172,11 +172,11 @@ MonoBehaviour:
   patrolPoints:
   - {fileID: 0}
   - {fileID: 0}
-  moveSpeed: 5
   patrolDestination: 0
-  playerTransform: {fileID: 0}
-  cheseDistance: 4
+  moveSpeed: 5
   isChasing: 0
+  cheseDistance: 4
+  player: {fileID: 0}
 --- !u!1 &6564223769358691795
 GameObject:
   m_ObjectHideFlags: 0
@@ -208,7 +208,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6564223768708234839}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6564223769358691793
 SpriteRenderer:

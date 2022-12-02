@@ -6,7 +6,7 @@ public class Monster3 : MonoBehaviour
 {
     [SerializeField] int maxHealth = 15;
     [SerializeField] int health;
-    [SerializeField] PlayerMovement playerMovement;
+    [SerializeField] Player playerMovement;
 
     private void Start()
     {

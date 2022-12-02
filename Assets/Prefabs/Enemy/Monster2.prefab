@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6217558716614143213}
   - component: {fileID: 6217558716614143210}
   m_Layer: 0
-  m_Name: MonsterDamage
+  m_Name: MonsterAttackArea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31,7 +31,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6564223768708234839}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &6217558716614143213
 BoxCollider2D:
@@ -46,7 +46,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.22375876}
+  m_Offset: {x: 0, y: -0.22099192}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -57,7 +57,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.167533, y: 0.9605292}
+  m_Size: {x: 2.167533, y: 0.9660629}
   m_EdgeRadius: 0
 --- !u!114 &6217558716614143210
 MonoBehaviour:
@@ -71,9 +71,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd7c0d7bd3fcda44eb2dcf7457eeed2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 2
   player: {fileID: 0}
-  playerMovement: {fileID: 0}
+  damage: 2
+  playerKBForce: 4
 --- !u!1 &6564223768708234832
 GameObject:
   m_ObjectHideFlags: 0
@@ -83,13 +83,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6564223768708234839}
-  - component: {fileID: 6564223768708234921}
-  - component: {fileID: 6564223768708234838}
+  - component: {fileID: 740690223629571030}
   - component: {fileID: 6564223768708234920}
   - component: {fileID: 7356656661377110653}
+  - component: {fileID: 6564223768708234921}
+  - component: {fileID: 9189488276098981259}
   m_Layer: 0
   m_Name: Monster2
-  m_TagString: WeakPoint
+  m_TagString: Monster2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -106,12 +107,61 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 6564223769358691794}
   - {fileID: 6217558716614143211}
   - {fileID: 100292005525280527}
+  - {fileID: 6564223769358691794}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &740690223629571030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6564223768708234832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1255fd6c9cc0ff4cb9bac992a6f7424, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 10
+  health: 0
+--- !u!114 &6564223768708234920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6564223768708234832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688c44bfa3b2acb4cb535bf278e4e0e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  patrolPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  patrolDestination: 0
+  moveSpeed: 5
+  isChasing: 0
+  cheseDistance: 4
+  player: {fileID: 0}
+--- !u!114 &7356656661377110653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6564223768708234832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68cf3a26fe7ef9840a230221c6900c27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firePoint: {fileID: 100292005525280527}
+  bullet: {fileID: 4562001897275716675, guid: 12fb8607194252641a7f1df5d27fbc6a, type: 3}
+  startTimeBetween: 1
 --- !u!50 &6564223768708234921
 Rigidbody2D:
   serializedVersion: 4
@@ -131,9 +181,9 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
---- !u!61 &6564223768708234838
+--- !u!61 &9189488276098981259
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -157,43 +207,8 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.9711306, y: 0.08536196}
+  m_Size: {x: 1.54, y: 0.14032486}
   m_EdgeRadius: 0
---- !u!114 &6564223768708234920
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6564223768708234832}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 688c44bfa3b2acb4cb535bf278e4e0e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  patrolPoints:
-  - {fileID: 0}
-  - {fileID: 0}
-  moveSpeed: 5
-  patrolDestination: 0
-  playerTransform: {fileID: 0}
-  cheseDistance: 4
-  isChasing: 0
---- !u!114 &7356656661377110653
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6564223768708234832}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68cf3a26fe7ef9840a230221c6900c27, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  firePoint: {fileID: 100292005525280527}
-  bullet: {fileID: 4562001897275716675, guid: 12fb8607194252641a7f1df5d27fbc6a, type: 3}
-  startTimeBetween: 1
 --- !u!1 &6564223769358691795
 GameObject:
   m_ObjectHideFlags: 0
@@ -207,7 +222,7 @@ GameObject:
   - component: {fileID: 5064672682674355569}
   m_Layer: 0
   m_Name: Render
-  m_TagString: Untagged
+  m_TagString: MonsterWeakPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -225,7 +240,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6564223768708234839}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6564223769358691793
 SpriteRenderer:
@@ -328,5 +343,5 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6564223768708234839}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
