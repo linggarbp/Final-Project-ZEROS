@@ -104,7 +104,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stompDamage: 1
   player: {fileID: 5783754524209982042}
-  monster2StompKBForce: 12
+  m2StompKBForce: 7
+  m3StompKBForce: 7
 --- !u!1 &5783754523960042454
 GameObject:
   m_ObjectHideFlags: 0
@@ -316,7 +317,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 5783754524209982047}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 6b7a857bd60f1324caa2b0cb00404566, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0

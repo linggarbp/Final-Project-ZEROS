@@ -5,13 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class Restaurant : MonoBehaviour
 {
-    [SerializeField] string partName;
+    [SerializeField] string sceneName;
     [SerializeField] int timeLine;
     [SerializeField] DataStorage dataStorage;
 
     private void Start()
     {
-        if (partName == null || dataStorage == null)
+        if (sceneName == null || dataStorage == null)
         {
             Debug.Log("Attack all component in : " + this.name);
             return;
@@ -23,16 +23,12 @@ public class Restaurant : MonoBehaviour
         if (timeLine != dataStorage.dataTimeline)
             gameObject.SetActive(false);
     }
-    private void OnDisable()
-    {
-        gameObject.SetActive(true);
-    }
     public void TakeMission()
     {
         if (dataStorage.dataTimeline == timeLine)
         {
-            Debug.Log("Misi " + partName + " diambil");
-            SceneManager.LoadScene(partName);
+            Debug.Log("Misi " + sceneName + " diambil");
+            SceneManager.LoadScene(sceneName);
         }
         Debug.Log("Selesaikan Misi Sebelumnya");
         Debug.Log(dataStorage.dataTimeline);

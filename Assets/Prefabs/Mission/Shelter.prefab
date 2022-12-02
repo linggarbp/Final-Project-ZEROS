@@ -47,7 +47,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventory: {fileID: 0}
-  dataStorage: {fileID: 0}
+  dataStorage: {fileID: 11400000, guid: d4749250cacf36d44b5a89c13813e940, type: 2}
+  nextPart: 
 --- !u!61 &7063046211757306810
 BoxCollider2D:
   m_ObjectHideFlags: 0

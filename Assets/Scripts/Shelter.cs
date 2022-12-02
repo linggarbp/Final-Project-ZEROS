@@ -7,12 +7,12 @@ public class Shelter : MonoBehaviour
 {
     [SerializeField] Inventory inventory;
     [SerializeField] DataStorage dataStorage;
-    [SerializeField] string nextPart;
+    [SerializeField] string nextScene;
     bool isRewarded;
 
     private void Update()
     {
-        if (inventory == null || dataStorage == null || nextPart == null)
+        if (inventory == null || dataStorage == null || nextScene == null)
             Debug.Log("Attach all Component to : " + this.name);
     }
 
@@ -47,6 +47,6 @@ public class Shelter : MonoBehaviour
         dataStorage.dataTimeline++;
         PlayerPrefs.SetInt("Timeline", dataStorage.dataTimeline);
         isRewarded = true;
-        SceneManager.LoadScene(nextPart);
+        SceneManager.LoadScene(nextScene);
     }
 }

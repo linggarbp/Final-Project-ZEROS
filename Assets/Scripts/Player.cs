@@ -19,8 +19,8 @@ public class Player : MonoBehaviour
     //PLAYER MOVEMENT
     [Header("PLAYER MOVEMENT")]
     [SerializeField] Rigidbody2D rb;
-    [SerializeField] float speed;
-    [SerializeField] float jumpForce;
+    [SerializeField] float speed = 10;
+    [SerializeField] float jumpForce = 40;
     int jumpCount;
     float moveDir;
     [SerializeField] LayerMask groundLayer;
@@ -28,12 +28,12 @@ public class Player : MonoBehaviour
 
 
     [SerializeField] Transform feetPosition;
-    [SerializeField] float groundCheckCircle;
+    [SerializeField] float groundCheckCircle = 0.1f;
 
     [Header("KNOCK BACK")]
-    public float KBForce;
-    public float KBCounter;
-    public float totalTime;
+    public float KBForce = 24;
+    public float KBCounter = 0;
+    public float totalTime = 0.2f;
     public bool KnockFromRight;
 
     [Header("ANIMATION")]

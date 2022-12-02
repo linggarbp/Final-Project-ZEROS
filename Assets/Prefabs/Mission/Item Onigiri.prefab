@@ -93,7 +93,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2200464485572405418}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 11a92e1b2b197774fb1d32723092d4e7, type: 2}
   m_CullingMode: 0
@@ -118,7 +118,7 @@ GameObject:
   - component: {fileID: 2184116360183144488}
   m_Layer: 0
   m_Name: Item Onigiri
-  m_TagString: Untagged
+  m_TagString: Food
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

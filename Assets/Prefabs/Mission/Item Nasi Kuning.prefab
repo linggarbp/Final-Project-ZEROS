@@ -118,7 +118,7 @@ GameObject:
   - component: {fileID: 2184116360183144488}
   m_Layer: 0
   m_Name: Item Nasi Kuning
-  m_TagString: Untagged
+  m_TagString: Food
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
