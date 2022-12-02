@@ -2,11 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Finish : MonoBehaviour
+public class Shelter : MonoBehaviour
 {
     [SerializeField] Inventory inventory;
     [SerializeField] DataStorage dataStorage;
     bool isRewarded;
+
+    private void Update()
+    {
+        if (inventory == null || dataStorage == null)
+            Debug.Log("Attach all Component to : " + this.name);
+    }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -30,7 +36,8 @@ public class Finish : MonoBehaviour
             Debug.Log("1 Stars");
 
         // TIME LINE CONTINUE
-        dataStorage.dataTimeLine++;
+        dataStorage.dataTimeline++;
+        PlayerPrefs.SetInt("Timeline", dataStorage.dataTimeline);
         isRewarded = true;
     }
 }

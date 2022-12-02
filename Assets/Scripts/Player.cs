@@ -47,6 +47,7 @@ public class Player : MonoBehaviour
     }
     private void Update()
     {
+        // TAKE MISSION IN RESTAURANT
         if (Input.GetKey("e") && onMission)
         {
             newMission.TakeMission();

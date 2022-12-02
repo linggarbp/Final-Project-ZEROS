@@ -6,11 +6,14 @@ public class GameManager : MonoBehaviour
 {
     public static int timeLine;
 
-    private void Awake()
+    [ContextMenu("ResetTimeLine")]
+    public void ResetTimeline()
     {
-        PlayerPrefs.DeleteAll();
+        PlayerPrefs.SetFloat("Timeline", 0);
+        Debug.Log("Timeline Reset to 0");
     }
-    private void Start()
+
+    private void Awake()
     {
         timeLine = PlayerPrefs.GetInt("TimeLine");
     }
