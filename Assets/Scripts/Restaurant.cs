@@ -22,8 +22,10 @@ public class Restaurant : MonoBehaviour
     {
         if (timeLine != dataStorage.dataTimeline)
             gameObject.SetActive(false);
-        else
-            gameObject.SetActive(true);
+    }
+    private void OnDisable()
+    {
+        gameObject.SetActive(true);
     }
     public void TakeMission()
     {

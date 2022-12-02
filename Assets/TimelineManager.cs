@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
+public class TimelineManager : MonoBehaviour
 {
-    public static int timeLine;
+    [SerializeField] DataStorage dataStorage;
 
     [ContextMenu("ResetTimeLine")]
     public void ResetTimeline()
@@ -13,11 +13,8 @@ public class GameManager : MonoBehaviour
         Debug.Log("Timeline Reset to 0");
     }
 
-    private void Awake()
+    private void update()
     {
-        timeLine = PlayerPrefs.GetInt("TimeLine");
+        dataStorage.dataTimeline = PlayerPrefs.GetInt("TimeLine");
     }
-
-
-
 }

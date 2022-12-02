@@ -119,9 +119,10 @@ public class Player : MonoBehaviour
 
     void Die()
     {
-        Debug.Log("PlayerDie");
+        Debug.Log("Player Die & game Restart");
         isAlive = false;
         gameObject.SetActive(false);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
 

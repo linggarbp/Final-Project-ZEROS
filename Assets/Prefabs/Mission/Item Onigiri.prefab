@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -682120388, guid: fdd009a3521d42145a6677a70ad8be85, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 079bc75050918104c9ceb704bef0459c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -117,7 +117,7 @@ GameObject:
   - component: {fileID: 4793050298711817219}
   - component: {fileID: 2184116360183144488}
   m_Layer: 0
-  m_Name: DropItem
+  m_Name: Item Onigiri
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -151,8 +151,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a10a1dc88275e1b47861b2d15d3342f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: Nasi Kuning
-  sprite: {fileID: -682120388, guid: fdd009a3521d42145a6677a70ad8be85, type: 3}
+  itemName: Onigiri
+  sprite: {fileID: 21300000, guid: 079bc75050918104c9ceb704bef0459c, type: 3}
 --- !u!61 &2184116360183144488
 BoxCollider2D:
   m_ObjectHideFlags: 0
