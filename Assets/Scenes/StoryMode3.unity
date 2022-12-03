@@ -620,7 +620,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 199567341694980072, guid: 276211bd8775bb044b153b7db67868c9, type: 3}
       propertyPath: m_Name
-      value: X (2)
+      value: Bratt Alter (2)
       objectReference: {fileID: 0}
     - target: {fileID: 199567341694980073, guid: 276211bd8775bb044b153b7db67868c9, type: 3}
       propertyPath: m_RootOrder
@@ -2741,7 +2741,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 199567341694980072, guid: 276211bd8775bb044b153b7db67868c9, type: 3}
       propertyPath: m_Name
-      value: X
+      value: Bratt Alter
       objectReference: {fileID: 0}
     - target: {fileID: 199567341694980073, guid: 276211bd8775bb044b153b7db67868c9, type: 3}
       propertyPath: m_RootOrder
@@ -5749,7 +5749,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 199567341694980072, guid: 276211bd8775bb044b153b7db67868c9, type: 3}
       propertyPath: m_Name
-      value: X (1)
+      value: Bratt Alter (1)
       objectReference: {fileID: 0}
     - target: {fileID: 199567341694980073, guid: 276211bd8775bb044b153b7db67868c9, type: 3}
       propertyPath: m_RootOrder
