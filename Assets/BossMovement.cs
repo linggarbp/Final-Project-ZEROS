@@ -7,13 +7,20 @@ public class BossMovement : MonoBehaviour
     [SerializeField] Transform[] patrolPoints;
     [SerializeField] float moveSpeed;
     [SerializeField] int patrolDestination;
-    [SerializeField] Animator animator;
 
-    public static bool isShooting;
+    [Header("ANIMATION")]
+    [SerializeField] Animator animator;
     bool isRunning;
+    public static bool isShooting;
 
     private void Update()
     {
+        // Check if patrol point is null
+        if (patrolPoints[0] == null || patrolPoints[1] == null || animator == null)
+        {
+            Debug.Log("Attach all required reference to component : " + this.name);
+            return;
+        }
         // animator
         animator.SetBool("isAttack", isRunning);
 

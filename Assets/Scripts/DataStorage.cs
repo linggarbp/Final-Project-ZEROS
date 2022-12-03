@@ -5,9 +5,12 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "DataStorage", menuName = "ScriptableObject/DataStorage")]
 public class DataStorage : ScriptableObject
 {
-    public int itemCollect;
+    public int dataTimeline;
+    public Vector2 saveLocation;
+
+    // FOR DEVELOPMENT
     private void OnDisable()
     {
-        itemCollect = 0;
+        dataTimeline = 0;
     }
 }
