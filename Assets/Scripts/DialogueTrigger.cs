@@ -7,6 +7,7 @@ public class DialogueTrigger : MonoBehaviour
     [Header("Visual & Trigger")]
     [SerializeField] private GameObject visualCue;
     [SerializeField] private GameObject trigger;
+    [SerializeField] private GameObject bound;
 
     [Header("Ink JSON")]
     [SerializeField] private TextAsset inkJSON;
@@ -31,6 +32,7 @@ public class DialogueTrigger : MonoBehaviour
             {
                 DialogueManager.GetInstance().EnterDialogueMode(inkJSON);
                 playerInteractable = false;
+                bound.SetActive(false);
             }
         }
         else

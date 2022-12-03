@@ -63,6 +63,9 @@ public class Player : MonoBehaviour
 
         lastHealth = health;
 
+        if (DialogueManager.GetInstance().dialogueIsPlaying)
+            return;
+
         //PLAYER MOVEMENT
         moveDir = Input.GetAxisRaw("Horizontal");
 
@@ -147,5 +150,7 @@ public class Player : MonoBehaviour
     private void OnTriggerExit2D(Collider2D other)
     {
         onMission = false;
+        //if (other.gameObject.tag == "AlterBratt")
+        //    other.gameObject.SetActive(false);
     }
 }

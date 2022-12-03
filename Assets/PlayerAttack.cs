@@ -18,10 +18,10 @@ public class PlayerAttack : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            Attack();
-        }
+        //if (Input.GetKeyDown(KeyCode.Space))
+        //{
+        //    Attack();
+        //}
 
         if (attacking)
         {
