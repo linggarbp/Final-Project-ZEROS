@@ -23,4 +23,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Testing/Testing Feature.unity
     guid: ed590c2bccb1b89458ec7d6d01eb3fec
+  - enabled: 1
+    path: Assets/Scenes/StoryMode1.unity
+    guid: 847e3b35e13314641967d3415fb7781f
+  - enabled: 1
+    path: Assets/Scenes/StoryMode2.unity
+    guid: a935bd5a047ca364aa581b064bddc8f1
+  - enabled: 1
+    path: Assets/Scenes/StoryMode3.unity
+    guid: c157c8197c055764889e49ac134d2d4d
+  - enabled: 1
+    path: Assets/Scenes/StoryMode4.unity
+    guid: dce43525af24073439f5fe7ec588dcf8
+  - enabled: 1
+    path: Assets/Scenes/StoryMode5.unity
+    guid: 3e29d0bd8c7c46e40bed7ee56ac943e7
   m_configObjects: {}

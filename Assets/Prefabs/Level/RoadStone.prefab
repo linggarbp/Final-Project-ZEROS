@@ -1,0 +1,3561 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3054321911781540663
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1635273963584804684}
+  m_Layer: 6
+  m_Name: RoadStone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1635273963584804684
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3054321911781540663}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5311041527396387246}
+  - {fileID: 980174521426697568}
+  - {fileID: 3387393419348193183}
+  - {fileID: 647234375348957224}
+  - {fileID: 8978150357645539267}
+  - {fileID: 3573524822311939000}
+  - {fileID: 3643020599526948836}
+  - {fileID: 8156909433979437482}
+  - {fileID: 1066049580083651877}
+  - {fileID: 8682762428798504110}
+  - {fileID: 6697987095951675078}
+  - {fileID: 5434526868218578157}
+  - {fileID: 2879654664002237080}
+  - {fileID: 1111127431209665368}
+  - {fileID: 1953774934265741580}
+  - {fileID: 6438018394243431768}
+  - {fileID: 1261919056144178841}
+  - {fileID: 8919341110241831760}
+  - {fileID: 6292107457809384054}
+  - {fileID: 7423581015068592052}
+  - {fileID: 5090514551954881573}
+  - {fileID: 1555599993074962340}
+  - {fileID: 4396524902869311805}
+  - {fileID: 3308769694231670593}
+  - {fileID: 5196958123574053537}
+  - {fileID: 8426294043861173767}
+  - {fileID: 2210030446669060475}
+  - {fileID: 7212105942463900393}
+  - {fileID: 1731981273928696327}
+  - {fileID: 7727537251556177962}
+  - {fileID: 549573858762885116}
+  - {fileID: 3941110515284277123}
+  - {fileID: 999522707357162381}
+  - {fileID: 205665723792300771}
+  - {fileID: 6426457432962870353}
+  - {fileID: 2667811645890315641}
+  - {fileID: 9090056647534611803}
+  - {fileID: 7425799348589074314}
+  - {fileID: 4674340780956824719}
+  - {fileID: 5719511231295594553}
+  - {fileID: 2282399572306665809}
+  - {fileID: 4200806597699495798}
+  - {fileID: 1019710574675048791}
+  - {fileID: 6666902847188725974}
+  - {fileID: 6409345139265279756}
+  - {fileID: 2974551890658472103}
+  - {fileID: 8188454218172257219}
+  - {fileID: 4936772998791933547}
+  - {fileID: 8976058294841360986}
+  - {fileID: 7340116726369359573}
+  - {fileID: 7356321651979562413}
+  - {fileID: 6739031108975828347}
+  - {fileID: 1191400458162384552}
+  - {fileID: 1091181352120548}
+  - {fileID: 6062447529408250524}
+  - {fileID: 680382681974502365}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &16301078721432012
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -122
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (10)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &6697987095951675078 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 16301078721432012}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &20396666750597084
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 43
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -29.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (43)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &6666902847188725974 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 20396666750597084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &92384740869642865
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 51
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (51)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &6739031108975828347 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 92384740869642865}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &306102981520297990
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 44
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -26.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (44)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &6409345139265279756 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 306102981520297990}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &402370568922561106
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -108
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (15)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &6438018394243431768 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 402370568922561106}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &424097597567249243
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -54.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (34)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &6426457432962870353 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 424097597567249243}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &643959292129363350
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 54
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (54)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &6062447529408250524 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 643959292129363350}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &837634472176027004
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -99.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (18)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &6292107457809384054 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 837634472176027004}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1410232863320123187
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 39
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -40.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (39)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &5719511231295594553 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 1410232863320123187}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1500441503104388523
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -82.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (24)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &5196958123574053537 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 1500441503104388523}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1547393674918448804
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -150
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &5311041527396387246 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 1547393674918448804}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1704259639014589415
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -119.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (11)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &5434526868218578157 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 1704259639014589415}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1751652431059986785
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 47
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -18.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (47)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &4936772998791933547 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 1751652431059986785}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1902993475209935663
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -94
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (20)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &5090514551954881573 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 1902993475209935663}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2023090763636781957
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -43.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (38)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &4674340780956824719 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 2023090763636781957}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2329806137370489033
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -138.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &8978150357645539267 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 2329806137370489033}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2331935581288514896
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 48
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -15.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (48)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &8976058294841360986 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 2331935581288514896}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2516298485524236881
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -49.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (36)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &9090056647534611803 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 2516298485524236881}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2644369535047076772
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -124.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &8682762428798504110 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 2644369535047076772}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2813117008185175130
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -102.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (17)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &8919341110241831760 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 2813117008185175130}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2899715291634843917
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -80
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (25)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &8426294043861173767 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 2899715291634843917}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3273789009407038665
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 46
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -21.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (46)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &8188454218172257219 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 3273789009407038665}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3314305804187502240
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -130.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &8156909433979437482 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 3314305804187502240}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4030814335674007328
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -68.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (29)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &7727537251556177962 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 4030814335674007328}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4096976436353002979
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -74.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (27)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &7212105942463900393 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 4096976436353002979}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4111992334749143519
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 49
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -12.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (49)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &7340116726369359573 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 4111992334749143519}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4240994371458935463
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (50)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &7356321651979562413 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 4240994371458935463}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4305532854932508800
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 37
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -46.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (37)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &7425799348589074314 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 4305532854932508800}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4307752288065372350
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -96.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (19)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &7423581015068592052 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 4307752288065372350}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4784639762239446641
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -77.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (26)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &2210030446669060475 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 4784639762239446641}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4855258808079591003
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -38
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (40)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &2282399572306665809 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 4855258808079591003}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4955320454066341133
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -71.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (28)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &1731981273928696327 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 4955320454066341133}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5174879562613704198
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -110.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (14)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &1953774934265741580 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 5174879562613704198}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5285950029707167918
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -91.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (21)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &1555599993074962340 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 5285950029707167918}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5495898012099914146
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 52
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (52)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &1191400458162384552 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 5495898012099914146}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5570621554367732115
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -105.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (16)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &1261919056144178841 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 5570621554367732115}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5841989928774917255
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -60.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (32)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &999522707357162381 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 5841989928774917255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5861340291213744746
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -147.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &980174521426697568 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 5861340291213744746}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5910605117952565807
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -127.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &1066049580083651877 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 5910605117952565807}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5974960750824472157
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -32.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (42)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &1019710574675048791 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 5974960750824472157}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6027622777141183570
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -113.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (13)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &1111127431209665368 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 6027622777141183570}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6068211563626805026
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -141.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &647234375348957224 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 6068211563626805026}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6178052524735919319
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (55)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &680382681974502365 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 6178052524735919319}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6588085637274599670
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -66
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (30)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &549573858762885116 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 6588085637274599670}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6687297977601292270
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 53
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (53)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &1091181352120548 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 6687297977601292270}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6779964295043161577
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -57.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (33)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &205665723792300771 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 6779964295043161577}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7047700633974154807
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -88.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (22)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &4396524902869311805 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 7047700633974154807}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7386375217268056188
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 41
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -35.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (41)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &4200806597699495798 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 7386375217268056188}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7673092913654362249
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -63.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (31)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &3941110515284277123 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 7673092913654362249}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7879711225340079282
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -136
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &3573524822311939000 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 7879711225340079282}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7945323459327293678
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -133.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &3643020599526948836 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 7945323459327293678}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8153471328922216523
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -85.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (23)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &3308769694231670593 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 8153471328922216523}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8345062521530656917
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -144.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &3387393419348193183 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 8345062521530656917}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8469675882755536813
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -24
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (45)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &2974551890658472103 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 8469675882755536813}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8775289122736390771
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -52
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (35)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &2667811645890315641 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 8775289122736390771}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8879823929088832914
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1635273963584804684}
+    m_Modifications:
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -116.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998728980114489906, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+      propertyPath: m_Name
+      value: Jalan Bata (12)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+--- !u!4 &2879654664002237080 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6687263221331265290, guid: f42bdf337223d42449ced367133e76f5, type: 3}
+  m_PrefabInstance: {fileID: 8879823929088832914}
+  m_PrefabAsset: {fileID: 0}
