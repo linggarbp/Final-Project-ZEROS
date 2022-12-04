@@ -12,6 +12,10 @@ public class PlayerStomp : MonoBehaviour
     [SerializeField] float m2StompKBForce = 7;
     [SerializeField] float m3StompKBForce = 7;
 
+    [HideInInspector] public int m1Stomp;
+    [HideInInspector] public int m2Stomp;
+    [HideInInspector] public int m3Stomp;
+
     private void Update()
     {
         if (stompDamage <= 0)
@@ -22,11 +26,13 @@ public class PlayerStomp : MonoBehaviour
     {
         if (other.gameObject.tag == "Monster1")
         {
+            m1Stomp++;
             Debug.Log(other.gameObject.name + " : Die");
             other.gameObject.SetActive(false);
         }
         if (other.gameObject.tag == "Monster2")
         {
+            m2Stomp++;
             Debug.Log("Stomp m2");
             monsterStats = other.gameObject.GetComponent<MonsterStats>();
             monsterStats.TakeDamage(stompDamage);
@@ -34,6 +40,7 @@ public class PlayerStomp : MonoBehaviour
         }
         if (other.gameObject.tag == "Monster3")
         {
+            m3Stomp++;
             Debug.Log("Stomp m2");
             monster3 = other.gameObject.GetComponent<Monster3>();
             monster3.TakeDamage(stompDamage);
