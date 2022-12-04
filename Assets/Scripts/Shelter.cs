@@ -52,7 +52,15 @@ public class Shelter : MonoBehaviour
     {
         if (inventory.Items.Count == 7)
         {
-            finishText.text = "Selamat Kamu Sudah Berhasil  Mengantarkan Semua Makanan :) ";
+            if (SceneManager.GetActiveScene().name == "StoryMode5")
+            {
+                finishText.text = "Thanks for Playing :) ";
+            }
+
+            else
+            {
+                finishText.text = "Selamat Kamu Sudah Berhasil  Mengantarkan Semua Makanan :) ";
+            }
 
             dataStorage.dataTimeline++;
             PlayerPrefs.SetInt("Timeline", dataStorage.dataTimeline);
@@ -73,12 +81,12 @@ public class Shelter : MonoBehaviour
     }
     void Complete()
     {
-        foreach (var item in inventory.Items)
-        {
-            inventory.Items.Remove(item);
-        }
-        inventory.Items.Clear();
         SceneManager.LoadScene(nextScene);
+        //foreach (var item in inventory.Items)
+        //{
+        //    inventory.Items.Remove(item);
+        //}
+        //inventory.Items.Clear();
     }
     void Failed()
     {
