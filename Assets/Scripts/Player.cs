@@ -7,6 +7,9 @@ using TMPro;
 
 public class Player : MonoBehaviour
 {
+    [Header("Game Over Panel")]
+    [SerializeField] GameObject gameOverPanel;
+
     [Header("UI")]
     [SerializeField] TMP_Text healtText;
 
@@ -48,6 +51,7 @@ public class Player : MonoBehaviour
     {
         respawnPoint = transform.position;
         health = maxHealth;
+        gameOverPanel.SetActive(false);
     }
     private void Update()
     {
@@ -131,7 +135,7 @@ public class Player : MonoBehaviour
         Debug.Log("Player Die & game Restart");
         isAlive = false;
         gameObject.SetActive(false);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        gameOverPanel.SetActive(true);
     }
 
 

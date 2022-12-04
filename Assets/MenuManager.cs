@@ -26,4 +26,10 @@ public class MenuManager : MonoBehaviour
     {
         SceneManager.LoadScene("OpenWorld");
     }
+
+    public void Quit()
+    {
+        Application.Quit();
+    }
+
 }
