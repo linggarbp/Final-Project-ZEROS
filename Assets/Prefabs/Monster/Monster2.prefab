@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1255fd6c9cc0ff4cb9bac992a6f7424, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 2
   health: 0
 --- !u!114 &6564223768708234920
 MonoBehaviour:
@@ -161,6 +161,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firePoint: {fileID: 100292005525280527}
   bullet: {fileID: 4562001897275716675, guid: 12fb8607194252641a7f1df5d27fbc6a, type: 3}
+  shoot: {fileID: 0}
+  player: {fileID: 0}
   startTimeBetween: 1
 --- !u!50 &6564223768708234921
 Rigidbody2D:

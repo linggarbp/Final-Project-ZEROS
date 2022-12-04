@@ -7,6 +7,9 @@ using TMPro;
 
 public class Player : MonoBehaviour
 {
+    [Header("Menu Panel")]
+    [SerializeField] GameObject menuPanel;
+
     [Header("Game Over Panel")]
     [SerializeField] GameObject gameOverPanel;
 
@@ -52,9 +55,19 @@ public class Player : MonoBehaviour
         respawnPoint = transform.position;
         health = maxHealth;
         gameOverPanel.SetActive(false);
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+        menuPanel.SetActive(false);
     }
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            menuPanel.SetActive(true);
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
+
         healtText.text = health.ToString();
 
         // TAKE MISSION IN RESTAURANT
