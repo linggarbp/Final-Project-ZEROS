@@ -22,9 +22,9 @@ public class Player : MonoBehaviour
     [SerializeField] float speed = 10;
     [SerializeField] float jumpForce = 40;
     int jumpCount;
-    float moveDir;
+    public float moveDir;
     [SerializeField] LayerMask groundLayer;
-    bool isGrounded;
+    public bool isGrounded;
 
 
     [SerializeField] Transform feetPosition;
@@ -71,7 +71,7 @@ public class Player : MonoBehaviour
 
         isGrounded = Physics2D.OverlapCircle(feetPosition.position, groundCheckCircle, groundLayer);
         // jump
-        if (isGrounded && Input.GetKey("w"))
+        if (isGrounded && Input.GetKeyDown("w"))
         {
             rb.velocity = Vector2.up * jumpForce;
         }
