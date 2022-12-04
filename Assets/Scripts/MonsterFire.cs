@@ -6,6 +6,8 @@ public class MonsterFire : MonoBehaviour
 {
     [SerializeField] Transform firePoint;
     [SerializeField] GameObject bullet;
+    [SerializeField] AudioSource shoot;
+    [SerializeField] GameObject player;
     float timebetween;
 
     [SerializeField] float startTimeBetween = 1;
@@ -38,6 +40,9 @@ public class MonsterFire : MonoBehaviour
 
         if (timebetween <= 0)
         {
+            if (Vector2.Distance(this.transform.position, player.transform.position) < 25)
+                shoot.Play();
+
             Instantiate(bullet, firePoint.position, firePoint.rotation);
             timebetween = startTimeBetween;
         }

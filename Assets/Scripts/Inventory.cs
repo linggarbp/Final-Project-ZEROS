@@ -15,6 +15,7 @@ public class Inventory : MonoBehaviour
     List<DropItem> items = new List<DropItem>();
     GameObject go;
     bool onDropItem;
+    public int itemAddSFX;
 
     private void Update()
     {
@@ -23,6 +24,7 @@ public class Inventory : MonoBehaviour
         {
             AddToInventory();
             Destroy(go);
+            itemAddSFX++;
         }
 
         // OPEN INVENTORY

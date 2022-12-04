@@ -3,9 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class Player : MonoBehaviour
 {
+    [Header("UI")]
+    [SerializeField] TMP_Text healtText;
+
     [Header("PLAYER STATS")]
     public int maxHealth = 10;
     public int health;
@@ -47,6 +51,8 @@ public class Player : MonoBehaviour
     }
     private void Update()
     {
+        healtText.text = health.ToString();
+
         // TAKE MISSION IN RESTAURANT
         if (Input.GetKey("e") && onMission)
         {
