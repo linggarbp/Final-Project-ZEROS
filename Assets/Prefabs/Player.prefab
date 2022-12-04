@@ -106,6 +106,9 @@ MonoBehaviour:
   player: {fileID: 5783754524209982042}
   m2StompKBForce: 7
   m3StompKBForce: 7
+  m1Stomp: 0
+  m2Stomp: 0
+  m3Stomp: 0
 --- !u!1 &5783754523960042454
 GameObject:
   m_ObjectHideFlags: 0
@@ -263,15 +266,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50c5c539d8f28a14c9342f1bd48ee6cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
-  health: 0
+  menuPanel: {fileID: 0}
+  gameOverPanel: {fileID: 0}
+  healtText: {fileID: 0}
+  maxHealth: 20
+  health: 20
   lastHealth: 0
   rb: {fileID: 5783754524209982040}
   speed: 10
   jumpForce: 32.5
+  moveDir: 0
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
+  isGrounded: 0
   feetPosition: {fileID: 4601507263915899028}
   groundCheckCircle: 0.1
   KBForce: 24
@@ -292,10 +300,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d2c1a7c5599fb34981fd7db12a4853c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  backpackText: {fileID: 0}
   itemPrefab: {fileID: 4319681173220109103, guid: 6e66b3f090c299341a6c40e66cdeea5c, type: 3}
   dataStorage: {fileID: 11400000, guid: d4749250cacf36d44b5a89c13813e940, type: 2}
   inventoryPanel: {fileID: 0}
   itemListLocation: {fileID: 0}
+  itemAddSFX: 0
 --- !u!114 &3676332927356862358
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -308,6 +318,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0212bd0a2ab6bf4f92d0ef44c180968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jumpSFX: {fileID: 0}
+  runSFX: {fileID: 0}
+  stompM1: {fileID: 0}
+  stompM2: {fileID: 0}
+  stompM3: {fileID: 0}
+  playerTakeDamage: {fileID: 0}
+  playerTakeItem: {fileID: 0}
 --- !u!114 &530835593563006839
 MonoBehaviour:
   m_ObjectHideFlags: 0
