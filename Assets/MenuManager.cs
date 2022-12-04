@@ -11,6 +11,8 @@ public class MenuManager : MonoBehaviour
     [SerializeField] Button continueButton;
     private void Start()
     {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
         dataStorage.dataTimeline = PlayerPrefs.GetInt("Timeline");
         if (PlayerPrefs.GetInt("Timeline") == 0)
             continueButton.interactable = false;
