@@ -8,21 +8,23 @@ public class Shelter : MonoBehaviour
 {
     [SerializeField] Inventory inventory;
     [SerializeField] DataStorage dataStorage;
+    [SerializeField] GameObject popUp;
     [SerializeField] string nextScene;
     [SerializeField] TMP_Text finishText;
-    [SerializeField] GameObject completePanel;
-    [SerializeField] GameObject failedPanel;
+    [SerializeField] GameObject shelterPanel;
     [SerializeField] AudioSource shelterSFX;
     [SerializeField] AudioSource shelterPressedSFX;
     bool onShelter;
     private void Start()
     {
         onShelter = false;
+        popUp.SetActive(false);
+        shelterPanel.SetActive(false);
     }
 
     private void Update()
     {
-        if (inventory == null || dataStorage == null || nextScene == null)
+        if (inventory == null || dataStorage == null || nextScene == null || shelterPanel == null)
             Debug.Log("Attach all Component to : " + this.name);
 
         if (Input.GetKey("e") && onShelter)
@@ -35,12 +37,14 @@ public class Shelter : MonoBehaviour
     {
         if (other.tag == "Player")
         {
+            popUp.SetActive(true);
             onShelter = true;
             shelterSFX.Play();
         }
     }
     private void OnTriggerExit2D(Collider2D other)
     {
+        popUp.SetActive(false);
         onShelter = false;
     }
 
@@ -48,32 +52,36 @@ public class Shelter : MonoBehaviour
     {
         if (inventory.Items.Count == 7)
         {
-            finishText.text = "Selamat Atas Kontribusi Kamu, " + inventory.Items.Count + " Makanan Berhasil Diantarkan :)";
-            completePanel.SetActive(true);
+            finishText.text = "Selamat Kamu Sudah Berhasil  Mengantarkan Semua Makanan :) ";
+
             dataStorage.dataTimeline++;
             PlayerPrefs.SetInt("Timeline", dataStorage.dataTimeline);
+            shelterPanel.SetActive(true);
             Invoke("Complete", 10);
+
+
         }
-        else
+        else if (inventory.Items.Count < 7)
         {
-            finishText.text = "Makanan belum terkumpul semuanya :( ,  kembali lagi jika sudah mendapatkannya :D ";
-            failedPanel.SetActive(true);
+            finishText.text = "Makanan Terkumpul " + inventory.Items.Count + "/7   Kembali Lagi Jika Sudah Terkumpul Semua :(";
+            shelterPanel.SetActive(true);
             Invoke("Failed", 5);
         }
 
+
+
+    }
+    void Complete()
+    {
         foreach (var item in inventory.Items)
         {
             inventory.Items.Remove(item);
         }
         inventory.Items.Clear();
-
-    }
-    void Complete()
-    {
         SceneManager.LoadScene(nextScene);
     }
     void Failed()
     {
-        failedPanel.SetActive(false);
+        shelterPanel.SetActive(false);
     }
 }

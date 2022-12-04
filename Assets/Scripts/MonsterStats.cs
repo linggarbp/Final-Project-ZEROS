@@ -5,7 +5,7 @@ using UnityEngine;
 public class MonsterStats : MonoBehaviour
 {
     [Header("MONSTER STATS")]
-    public int maxHealth = 10;
+    public int maxHealth = 2;
     public int health;
 
     private void Start()
