@@ -12,6 +12,8 @@ public class Shelter : MonoBehaviour
     [SerializeField] TMP_Text finishText;
     [SerializeField] GameObject completePanel;
     [SerializeField] GameObject failedPanel;
+    [SerializeField] AudioSource shelterSFX;
+    [SerializeField] AudioSource shelterPressedSFX;
     bool onShelter;
     private void Start()
     {
@@ -26,6 +28,7 @@ public class Shelter : MonoBehaviour
         if (Input.GetKey("e") && onShelter)
         {
             ShelterReward();
+            shelterPressedSFX.Play();
         }
     }
     private void OnTriggerEnter2D(Collider2D other)
@@ -33,7 +36,7 @@ public class Shelter : MonoBehaviour
         if (other.tag == "Player")
         {
             onShelter = true;
-
+            shelterSFX.Play();
         }
     }
     private void OnTriggerExit2D(Collider2D other)
@@ -43,7 +46,7 @@ public class Shelter : MonoBehaviour
 
     void ShelterReward()
     {
-        if (inventory.Items.Count > 0)
+        if (inventory.Items.Count == 7)
         {
             finishText.text = "Selamat Atas Kontribusi Kamu, " + inventory.Items.Count + " Makanan Berhasil Diantarkan :)";
             completePanel.SetActive(true);
