@@ -20,6 +20,7 @@ public class MenuManager : MonoBehaviour
     {
         PlayerPrefs.SetInt("Timeline", 0);
         dataStorage.dataTimeline = 0;
+        SceneManager.LoadScene("StoryMode1");
     }
 
     public void ClickContinue()
