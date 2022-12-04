@@ -12,10 +12,13 @@ public class AudioCheckpoint : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (!isPlayer)
+        if (other.tag == "Player")
         {
-            sfx.Play();
-            isPlayer = true;
+            if (!isPlayer)
+            {
+                sfx.Play();
+                isPlayer = true;
+            }
         }
     }
 }
