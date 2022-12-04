@@ -5,6 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class GameOverManager : MonoBehaviour
 {
+    private void Start()
+    {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+    }
     [SerializeField] GameObject menuPanel;
     public void ClickRestart()
     {

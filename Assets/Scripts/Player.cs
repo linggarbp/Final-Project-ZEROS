@@ -145,6 +145,8 @@ public class Player : MonoBehaviour
 
     void Die()
     {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
         Debug.Log("Player Die & game Restart");
         isAlive = false;
         gameObject.SetActive(false);
