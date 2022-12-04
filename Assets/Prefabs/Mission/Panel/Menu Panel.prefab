@@ -93,7 +93,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ede0d69be56c3a04eb2e2b880830cd5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menuPanel: {fileID: 0}
+  menuPanel: {fileID: 475935538900207192}
 --- !u!1 &1326114102603027495
 GameObject:
   m_ObjectHideFlags: 0
@@ -216,9 +216,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 268033027624528633}
         m_TargetAssemblyTypeName: GameOverManager, Assembly-CSharp
-        m_MethodName: ClickRestart
+        m_MethodName: ClickResume
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -350,7 +350,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 268033027624528633}
         m_TargetAssemblyTypeName: GameOverManager, Assembly-CSharp
         m_MethodName: ClickRestart
         m_Mode: 1
@@ -1024,7 +1024,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 268033027624528633}
         m_TargetAssemblyTypeName: GameOverManager, Assembly-CSharp
         m_MethodName: ClickMainMenu
         m_Mode: 1
