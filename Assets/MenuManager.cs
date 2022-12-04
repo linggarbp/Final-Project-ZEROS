@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.Audio;
 
 public class MenuManager : MonoBehaviour
 {
@@ -25,12 +26,37 @@ public class MenuManager : MonoBehaviour
 
     public void ClickContinue()
     {
-        SceneManager.LoadScene("OpenWorld");
+        SceneManager.LoadScene("StoryMode1");
     }
 
     public void Quit()
     {
         Application.Quit();
+    }
+
+    [SerializeField] Slider masterSlider;
+    [SerializeField] Slider musicSlider;
+    [SerializeField] Slider sfxSlider;
+    [SerializeField] AudioMixer audioMixer;
+    private void Update()
+    {
+        audioMixer.SetFloat("Mixer_Master", LinearToDecibel(masterSlider.value));
+        audioMixer.SetFloat("Mixer_BGM", LinearToDecibel(musicSlider.value));
+        audioMixer.SetFloat("Mixer_SFX", LinearToDecibel(sfxSlider.value));
+
+        if (PlayerPrefs.GetFloat("MasterVolume") != masterSlider.value)
+            PlayerPrefs.SetFloat("MasterVolume", masterSlider.value);
+        if (PlayerPrefs.GetFloat("MusicVolume") != musicSlider.value)
+            PlayerPrefs.SetFloat("MusicVolume", musicSlider.value);
+        if (PlayerPrefs.GetFloat("SFXVolume") != sfxSlider.value)
+            PlayerPrefs.SetFloat("SFXVolume", sfxSlider.value);
+
+    }
+    private float LinearToDecibel(float linear)
+    {
+        // linear = linear < 0.0001f?0.0001f:linear;
+        linear = Mathf.Clamp(linear, 0.0001f, 1);
+        return 20 * Mathf.Log10(linear);
     }
 
 }
