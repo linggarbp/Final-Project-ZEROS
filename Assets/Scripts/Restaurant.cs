@@ -8,10 +8,14 @@ public class Restaurant : MonoBehaviour
     [SerializeField] string sceneName;
     [SerializeField] int timeLine;
     [SerializeField] DataStorage dataStorage;
+    [SerializeField] GameObject PopUp;
+    [SerializeField] AudioSource restaurantSFX;
+    [SerializeField] AudioSource restaurantPressedSFX;
 
     private void Start()
     {
-        if (sceneName == null || dataStorage == null)
+        PopUp.SetActive(false);
+        if (sceneName == null || dataStorage == null || restaurantPressedSFX == null || restaurantSFX == null)
         {
             Debug.Log("Attack all component in : " + this.name);
             return;
@@ -32,5 +36,18 @@ public class Restaurant : MonoBehaviour
         }
         Debug.Log("Selesaikan Misi Sebelumnya");
         Debug.Log(dataStorage.dataTimeline);
+    }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            restaurantSFX.Play();
+            PopUp.SetActive(true);
+        }
+
+    }
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        PopUp.SetActive(false);
     }
 }

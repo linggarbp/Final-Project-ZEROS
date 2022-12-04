@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Inventory : MonoBehaviour
 {
+    [SerializeField] TMP_Text backpackText;
     public List<DropItem> Items { get => items; }
     [SerializeField] ItemPrefab itemPrefab;
     [SerializeField] DataStorage dataStorage;
@@ -19,6 +21,10 @@ public class Inventory : MonoBehaviour
 
     private void Update()
     {
+        if (backpackText == null || itemListLocation == null || inventoryPanel == null || itemPrefab == null)
+            Debug.Log("Attach All Component in " + this.name);
+
+        backpackText.text = items.Count.ToString() + "/7";
         // TAKE DROP ITEM
         if (Input.GetKey("e") && onDropItem)
         {
