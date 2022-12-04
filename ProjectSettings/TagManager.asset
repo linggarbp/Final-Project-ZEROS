@@ -19,6 +19,7 @@ TagManager:
   - MonsterWeakPoint
   - WeakPoint
   - Monster3
+  - AlterBratt
   layers:
   - Default
   - TransparentFX
