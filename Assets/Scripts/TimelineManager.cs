@@ -5,9 +5,13 @@ using UnityEngine;
 public class TimelineManager : MonoBehaviour
 {
     [SerializeField] DataStorage dataStorage;
+    private void Start()
+    {
+        dataStorage.dataTimeline = PlayerPrefs.GetInt("TimeLine");
+    }
 
     private void update()
     {
-        dataStorage.dataTimeline = PlayerPrefs.GetInt("TimeLine");
+
     }
 }

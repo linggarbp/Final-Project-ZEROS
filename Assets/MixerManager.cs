@@ -12,17 +12,12 @@ public class MixerManager : MonoBehaviour
     // [SerializeField, Range(0, 1f)] float volumeSFX = 1;
 
 
-    private void Awake()
+    private void Start()
     {
-        audioMixer.SetFloat("Mixer_Master", PlayerPrefs.GetFloat("MasterVolume", 0.8f));
-        audioMixer.SetFloat("Mixer_BGM", PlayerPrefs.GetFloat("MusicVolume", 0.8f));
-        audioMixer.SetFloat("Mixer_SFX", PlayerPrefs.GetFloat("SFXVolume", 0.8f));
+        audioMixer.SetFloat("Mixer_Master", PlayerPrefs.GetFloat("MasterVolume"));
+        audioMixer.SetFloat("Mixer_BGM", PlayerPrefs.GetFloat("MusicVolume"));
+        audioMixer.SetFloat("Mixer_SFX", PlayerPrefs.GetFloat("SFXVolume"));
     }
 
-    private float LinearToDecibel(float linear)
-    {
-        // linear = linear < 0.0001f?0.0001f:linear;
-        linear = Mathf.Clamp(linear, 0.0001f, 1);
-        return 20 * Mathf.Log10(linear);
-    }
+
 }
