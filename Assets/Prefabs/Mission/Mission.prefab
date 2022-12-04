@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5963395330130379948}
   - component: {fileID: 962749625270686727}
+  - component: {fileID: 172653588681684044}
   m_Layer: 0
   m_Name: PopUp
   m_TagString: Untagged
@@ -25,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1053013824849938594}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.12, y: 1.87, z: 0}
+  m_LocalPosition: {x: 4.67, y: 1.36, z: 0}
   m_LocalScale: {x: 4, y: 4, z: 4}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -73,10 +74,10 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 52eb4dfc3872a0146b95e89011890d50, type: 3}
+  m_Sprite: {fileID: -1815674193, guid: 0bae3dc7b17a7dc42a01300673d821a5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
-  m_FlipY: 1
+  m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.16, y: 0.16}
   m_AdaptiveModeThreshold: 0.5
@@ -84,6 +85,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &172653588681684044
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1053013824849938594}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 992120cf92619e34b961e2cc9536509b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &5697365205993610818
 GameObject:
   m_ObjectHideFlags: 0
@@ -244,6 +265,6 @@ MonoBehaviour:
   sceneName: 
   timeLine: 0
   dataStorage: {fileID: 11400000, guid: d4749250cacf36d44b5a89c13813e940, type: 2}
+  PopUp: {fileID: 1053013824849938594}
   restaurantSFX: {fileID: 0}
   restaurantPressedSFX: {fileID: 0}
-  PopUp: {fileID: 1053013824849938594}

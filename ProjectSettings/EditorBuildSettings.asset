@@ -23,6 +23,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/StoryMode5.unity
     guid: 3e29d0bd8c7c46e40bed7ee56ac943e7
+  - enabled: 1
+    path: Assets/Scenes/StoryMode1 (2).unity
+    guid: dca35ca63f2a4af4ab1e2135bc22a515
+  - enabled: 1
+    path: Assets/Scenes/StoryMode1 (1).unity
+    guid: 5a8155dce83264f45a98f2bd7176df47
   - enabled: 0
     path: Assets/Scenes/Gameplay.unity
     guid: 85b7c576f7a622940ac99740f8c35a18
