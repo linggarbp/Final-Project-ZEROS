@@ -5,12 +5,13 @@ using UnityEngine;
 public class MovingPlatform : MonoBehaviour
 {
     [SerializeField] Transform[] patrolPoints;
+    [SerializeField] bool twoWay;
     [SerializeField] float moveSpeed;
     [SerializeField] int patrolDestination;
 
     private void Update()
     {
-        if (patrolPoints[3])
+        if (!twoWay)
         {
             if (patrolDestination == 0)
             {
@@ -38,7 +39,7 @@ public class MovingPlatform : MonoBehaviour
                 }
             }
         }
-        else
+        if (twoWay)
         {
             if (patrolDestination == 0)
             {
