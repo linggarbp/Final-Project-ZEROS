@@ -596,6 +596,11 @@ AudioSource:
   m_CorrespondingSourceObject: {fileID: 7799068440666241192, guid: 38e582a1762441a47b10c0ad276b24c7, type: 3}
   m_PrefabInstance: {fileID: 7799068440302637672}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &747696388 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 475935538900207192, guid: 541019920620633469de16feea380e93, type: 3}
+  m_PrefabInstance: {fileID: 2860077880759110660}
+  m_PrefabAsset: {fileID: 0}
 --- !u!82 &759741993 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 7799068440760314945, guid: 38e582a1762441a47b10c0ad276b24c7, type: 3}
@@ -2308,6 +2313,10 @@ PrefabInstance:
       value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 5783754524209982042, guid: cb23214a4c555c94cbde35cbaab40f6c, type: 3}
+      propertyPath: menuPanel
+      value: 
+      objectReference: {fileID: 747696388}
+    - target: {fileID: 5783754524209982042, guid: cb23214a4c555c94cbde35cbaab40f6c, type: 3}
       propertyPath: gameOverPanel
       value: 
       objectReference: {fileID: 598527822}
@@ -2589,7 +2598,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5412769757029535222, guid: bac7a6beb4ae8df4dbb85b0bc35a493a, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5412769757029535223, guid: bac7a6beb4ae8df4dbb85b0bc35a493a, type: 3}
       propertyPath: m_Pivot.x
