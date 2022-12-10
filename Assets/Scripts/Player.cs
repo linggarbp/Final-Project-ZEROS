@@ -156,12 +156,6 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.GetComponent<Restaurant>() != null)
-        {
-            onMission = true;
-            newMission = other.GetComponent<Restaurant>();
-        }
-
         if (other.tag == "FallDetector")
         {
             transform.position = respawnPoint;
@@ -172,6 +166,16 @@ public class Player : MonoBehaviour
             respawnPoint = other.transform.position;
         }
     }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.GetComponent<Restaurant>() != null)
+        {
+            onMission = true;
+            newMission = collision.GetComponent<Restaurant>();
+        }
+    }
+
     private void OnTriggerExit2D(Collider2D other)
     {
         onMission = false;

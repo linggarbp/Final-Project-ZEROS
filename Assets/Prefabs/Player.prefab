@@ -88,7 +88,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.14579129}
+  m_Size: {x: 1.2, y: 0.14579129}
   m_EdgeRadius: 0
 --- !u!114 &7996378283047156311
 MonoBehaviour:
@@ -281,7 +281,7 @@ MonoBehaviour:
     m_Bits: 64
   isGrounded: 0
   feetPosition: {fileID: 4601507263915899028}
-  groundCheckCircle: 0.1
+  groundCheckCircle: 0.25
   KBForce: 24
   KBCounter: 0
   totalTime: 0.2
